@@ -34,7 +34,7 @@ const PlatformIconList = ({ platforms }: Props) => {
       //1 is a multiple of theme.space value in chakra UI instead we can also
       use '10px' ...etc instead of 1
       {platforms.map((platform) => (
-        <Icon as={iconMap[platform.slug]} color="grey.500" />
+        <Icon key={platform.id} as={iconMap[platform.slug]} color="gray.500" />
       ))}
     </HStack>
   );
