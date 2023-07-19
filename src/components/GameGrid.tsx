@@ -18,7 +18,7 @@ const GameGrid = () => {
           lg: 3,
           xl: 5,
         }}
-        spacing={10} // 10px
+        spacing={3}
         padding="10px"
       >
         {isLoading &&
